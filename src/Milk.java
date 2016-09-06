@@ -12,12 +12,17 @@ public class Milk {
     private long price;
 
     public Milk(int volume, String manufacturer, Date expiryDate, double fatContent, long price) {
-
-    };
+        this.volume = volume;
+        this.manufacturer = manufacturer;
+        this.expiryDate = expiryDate;
+        this.fatContent = fatContent;
+        this.price = price;
+    }
 
     public boolean isItGood() {
         return true;
-    };
+    }
+
 
     public int getVolume() {
         return volume;
