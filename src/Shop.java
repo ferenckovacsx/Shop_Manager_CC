@@ -44,7 +44,7 @@ public class Shop {
         return dairySection;
     }
 
-    public void fillMilk(Milk m) {
+    public void fillWithMilk(Milk m) {
 
     }
 }
